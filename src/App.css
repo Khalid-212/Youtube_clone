@@ -1,0 +1,10 @@
+*{
+  margin:5px;
+  box-sizing: border-box;
+}
+.body{
+  display: flex;
+}
+.menu{
+  box-shadow: 1px 0px  #b9b8b848;
+}

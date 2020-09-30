@@ -1,0 +1,95 @@
+/* .app_header{
+    display: flex;
+  }
+
+  .header__left{
+    display: flex;
+    flex: 1;
+  }
+  .header__left >.MuiSvgIcon-root{
+    font-size: xx-large;
+    color:#777777;
+  }
+
+  .logo{
+    display: flex;
+    font-size:22px;
+    font-weight: 500;
+    justify-content: center;
+  }
+
+    
+ */
+
+.app__header{
+    display: flex;
+    justify-content: baseline;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.youtube__icon{
+  margin-top: 10px;
+    margin-left: 20px;
+    color: red;
+    font-size:30px!important;
+}
+.logo__text > h1{
+  font-size: 30px;
+}
+.menu__icon{
+    margin-top: 20px;
+    font-size:30px!important;
+    color: #616060!important;
+  }
+
+.search__input{
+ 
+    display: flex;
+    align-items: center;
+    height: 30px;
+    max-width: 40vw;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .search__input > input {
+ 
+    padding: 10px 20px;
+    font-size: medium;
+    border: 1px solid lightgray;
+    color: #777777;
+    width: 500px;
+  }
+  
+  .searchicon{
+
+    border: 1px solid lightgray;
+    width: 60px;
+    background-color: #F9F9F9;
+  }
+  .search__input > input:focus{
+ 
+    color: #000000;
+  }
+  .header__right{
+      display: flex;
+      margin-top: 30px;
+      justify-content: space-evenly;
+  }
+  .header__right > p {
+    padding-right: 15px;
+  }
+  .signinbox{
+    width: fit-content;
+    border: 2px solid #065FD4;
+    border-radius: 2px;
+  }
+  .signinbox > p {
+    display: flex;
+    color: #065FD4;
+    font-size: 15px!important;
+    font-weight: 500;
+  }

@@ -1,0 +1,9 @@
+.videos{
+    text-align: center;
+}
+.video__card {
+    text-align: center!important;
+    justify-content: center!important;
+    width: 300px!important;
+    height: 300px!important;
+}
